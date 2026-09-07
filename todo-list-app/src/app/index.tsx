@@ -42,6 +42,8 @@ export default function HomeScreen() {
     carregarTarefas();
   }, []);
 
+/* Teste Efetuado no AsyncStorage com sucesso, foi salvo uma tarefa e fechado o App, apos abri novamente a tarefa permaneceu salva. */
+
   // SALVAR TAREFAS
   useEffect(() => {
     if (!carregando) {
