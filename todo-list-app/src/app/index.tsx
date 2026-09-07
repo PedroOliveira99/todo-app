@@ -126,11 +126,12 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.titulo}>
-        📝 Minhas Tarefas
+        📝 Minhas Tarefas{'\n'}
+        🛒 Minhas Compras 
       </Text>
 
       <Text style={styles.contador}>
-        {pendentes} tarefa(s) pendente(s)
+        {pendentes} tarefa / compra(s) pendente(s)
       </Text>
 
       <InputAdicionar
