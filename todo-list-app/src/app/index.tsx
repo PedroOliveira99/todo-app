@@ -10,14 +10,15 @@ import { useEffect, useState } from 'react';
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-import InputAdicionar from '../../components/input-adicionar';
+import InputAdicionar from '../components/input-adicionar';
 import TarefaItem, {
   Tarefa,
-} from '../../components/tarefa-item';
+} from '../components/tarefa-item';
 
 const CHAVE_STORAGE = '@minhas_tarefas';
 
-export default function Home() {
+export default function HomeScreen() {
+  /* O Projeto inteiro gira em torno dessa variavel */
   const [tarefas, setTarefas] = useState<Tarefa[]>([]);
   const [novaTarefa, setNovaTarefa] = useState('');
   const [carregando, setCarregando] = useState(true);
