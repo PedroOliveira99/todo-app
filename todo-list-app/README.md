@@ -24,8 +24,11 @@ Navegação entre telas
 # Prints
 # Tela 01 (Primeira)
 ![Tela 01 Lista vazia](../todo-list-app/assets/images/Tela%201%20Lista%20vazia.jpeg)
+
 ![Tela 01 Lista com Task](../todo-list-app/assets/images/Tela%201%20Lista%20com%20task.jpeg)
+
 ![Tela 01 Lista Task Finalizada](../todo-list-app/assets/images/Tela%201%20Lista%20com%20task%20Finalizada.jpeg)
+
 ![Tela 02 Sobre](../todo-list-app/assets/images/Tela%202%20Sobre%20App%20pagina.jpeg)
 
 # Welcome to your Expo app seu puto(a)
